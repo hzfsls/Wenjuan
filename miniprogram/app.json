@@ -18,9 +18,9 @@
     "pages/im/room/room"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#f6f6f6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#ffbd59",
     "navigationBarTitleText": "甜甜问卷",
     "navigationBarTextStyle": "black"
   },
@@ -28,21 +28,21 @@
     "list":[
       {
      "pagePath":"pages/main/main",
-     "text": "首页",
-     "iconPath": "pics/user.png",
-     "selectedIconPath": "pics/user_selected.png"
+     "text": "工作室",
+     "iconPath": "pics/studioHome.jpg",
+     "selectedIconPath": "pics/studioHome_selected.jpg"
      },
      {
       "pagePath": "pages/community/community",
       "text": "问卷社区",
-      "iconPath": "pics/user.png",
-      "selectedIconPath": "pics/user_selected.png"
+      "iconPath": "pics/community.jpg",
+      "selectedIconPath": "pics/community_selected.jpg"
     },
      {
       "pagePath": "pages/user/user",
       "text": "个人",
-      "iconPath": "pics/user.png",
-      "selectedIconPath": "pics/user_selected.png"
+      "iconPath": "pics/user.jpg",
+      "selectedIconPath": "pics/user_selected.jpg"
     }]
   },
   "sitemapLocation": "sitemap.json",

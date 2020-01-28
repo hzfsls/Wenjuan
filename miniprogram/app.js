@@ -1,4 +1,5 @@
 //app.js
+
 App({
   onLaunch: function () {
     
@@ -15,6 +16,8 @@ App({
       })
     }
 
-    this.globalData = {}
+    this.globalData = {
+      candy: 30
+    }
   }
 })

@@ -1,1 +1,96 @@
 /* pages/main/main.wxss */
+.candyImage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: space-around;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+}
+
+.candyImage > image {
+  height: 100rpx;
+  width: 100rpx;
+}
+
+.candyImage > text {
+  font-size: 12px;
+  font-style: initial;
+  font-family: serif;
+}
+
+.firstLineButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+}
+
+.firstLineButtons > button {
+  height: 250rpx;
+  width: 250rpx;
+  align-content: flex-start;
+  margin-top: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+.firstLineButtons > button > image {
+  height: 150rpx;
+  width: 150rpx;
+  /* align-content: center; */
+}
+
+.firstLineButtons > button > text {
+  text-align: center;
+  font-family: serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.mainIndexImage {
+  align-content: center;
+  height: 400rpx;
+  width: 400rpx;
+
+}
+
+.mainIndexImage > image {
+  height: 300rpx;
+  width: 300rpx;
+  align-content: center;
+}
+
+.mainIndexImage > text {
+  text-align: center;
+  font-family: serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.secondLineButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+}
+
+.secondLineButtons > button {
+  height: 250rpx;
+  width: 250rpx;
+}
+
+.secondLineButtons > button > image {
+  height: 150rpx;
+  width: 150rpx;
+  align-content: center;
+}
+
+.secondLineButtons > button > text {
+  text-align: center;
+  font-family: serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+

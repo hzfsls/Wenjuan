@@ -1,2 +1,42 @@
 <!--pages/main/main.wxml-->
-<text>pages/main/main.wxml</text>
+<!--剩余糖果-->
+  <view class="candyImage">   
+    <image src="../../images/candy.jpg"></image> 
+    <text>剩余糖果:{{myCandy}}</text>
+  </view>
+
+  <view class="mainButtonImage">
+    <view class="firstLineButtons">
+<!--糖果商店-->
+      <button bindtap="shopping" class="indexImage">
+        <image src="../../images/candyShop.jpg"></image>
+        <text>糖果商店</text>
+      </button>
+
+<!--糖果工坊-->
+        <button bindtap="processing" class="indexImage">
+          <image src="../../images/candyFactory.jpg"></image>
+          <text>糖果工坊</text>
+        </button>
+    </view>
+<!--发布问卷-->
+      <button bindtap="releasing" class="mainIndexImage">
+        <image src="../../images/questionnaire.png"></image>
+        <text>发布问卷</text>
+      </button>
+
+  <view class="secondLineButtons">
+<!--日签打卡-->
+      <button bindtap="daily_checking" class="indexImage">
+        <image src="../../images/daily.jpg"></image>
+        <text>日签打卡</text>
+      </button>
+
+<!--消息通知-->
+      <button bindtap="message_reading" class="indexImage">
+        <image src="../../images/message.png"></image>
+        <text>消息通知</text>
+      </button>
+  </view>
+  </view>
+  

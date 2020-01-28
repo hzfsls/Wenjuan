@@ -11,7 +11,9 @@ Page({
     userInfo: {},
     logged: false,
     takeSession: false,
-    requestResult: '' 
+    requestResult: '',
+    user_candy: 0, //用户糖果数量
+    user_candy_handle: 0 //用户糖柄数量
   },
 
   /**
